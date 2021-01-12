@@ -8,14 +8,7 @@ Please see this link: https://www.reddit.com/r/DataHoarder/comments/krx449/megat
 CONTENT
 
 Excel file: Lists all links in seperate sheets. Mainly used to filter, dedupe and archive the links.
-Text files:
-	parler_riots_links-wget.txt -> You can use this as the download list for wget to download the text and media files with wget.
-	washington_riots-youtube-dl.txt -> You can use this as the download list for youtube-dl to download the media files.
 
+All links have moved to the download list "2021-01-06_washington_riots-download_list.txt" than can be used for wget and youtube-dl.
 
-NOTE
-
-The washington_riots-youtube-dl is the list with all the links. However, you will get errors from youtube-dl
-because youtube-dl won't recognize the page format of the parler links. It'll still download the images and videos in those messages.
-
-Use the parler_riots_links-wget list with wget if you also want to download the pages, not only the media files.
+The parler links have been deleted since AWS took the site down. The domain doesn't resolve anymore.
